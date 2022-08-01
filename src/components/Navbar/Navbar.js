@@ -8,7 +8,7 @@ const Navbar = (props) => {
   return (
     <Fragment>
       <div style={{
-        backgroundColor: "#238C72",
+        backgroundColor: "#71989b",
         position: 'fixed',
         width: '100%',
         zIndex: 9999,
@@ -20,12 +20,13 @@ const Navbar = (props) => {
         justifyContent: 'space-between'
       }}>
         <h1 style={{
-          fontFamily: "monospace",
+          fontFamily: "arial",
           fontWeight: 'bold',
           fontSize: '2.5em',
           margin: "0 20px"
         }}>Class Manager</h1>
         <div style={{
+
           margin: '0 20px',
           flexDirection: 'row',
           background: "transparent",
